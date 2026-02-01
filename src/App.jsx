@@ -10,7 +10,7 @@ import Contact from "./pages/Contact.jsx";
 export function App() {
   return (
     <div className="wraper">
-      <Router>
+      <Router basename="react-food">
         <Header></Header>
         <main className="container">
           <Routes>
